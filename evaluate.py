@@ -7,7 +7,9 @@ from sklearn.metrics import mean_absolute_error, r2_score
 
 
 def evaluate_model(model, X_test, y_test):
-    """Evaluate model performance."""
+    """
+    Evaluate model performance.
+    """
 
     predictions = model.predict(X_test)
 
