@@ -3,9 +3,9 @@ Main execution script.
 Run this file to train and evaluate the model.
 """
 
-from src.data_preprocessing import load_data, clean_data, split_features_target
-from src.train import train_model, save_model
-from src.evaluate import evaluate_model
+from data_preprocessing import load_data, clean_data, split_features_target
+from train import train_model, save_model
+from evaluate import evaluate_model
 
 
 DATA_PATH = "data/crude_data.xlsx"
